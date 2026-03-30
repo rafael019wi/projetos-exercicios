@@ -10,7 +10,7 @@
 #include <stdlib.h>
 
 int main( void ) {
-    prinf("Ola mundo");
+    prinf("Ola mundo! ");
 
     return 0;
 

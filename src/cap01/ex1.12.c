@@ -11,6 +11,19 @@
 
 int main( void ) {
 
+    float numero1 = 0;
+    
+
+    printf("primeiro numero: "); 
+    scanf("%f\n", &numero1);
+
+    printf("%f\n", numero1);
+    printf("%.2f\n", numero1);
+    printf("%.3f\n", numero1);
+    
+    
+
+    
     return 0;
 
 }

@@ -10,7 +10,25 @@
 #include <stdlib.h>
 
 int main( void ) {
+    float a;
+    float b;
+    float soma;
+    float subtracao;
+    float divisao;
+    float multiplicacao;
+    scanf("%f",a);
+    scanf("%f",b);
+    soma = a+b;
+    subtracao = a-b;
+    multiplicacao = a*b;
+    divisao = a/b;
 
+    printf("%.2f + %.2f = %.2f", a,b,soma);
+    printf("%.2f + %.2f = %.2f", a,b,subtracao);
+    printf("%.2f + %.2f = %.2f", a,b,multiplicacao);
+    printf("%.2f + %.2f = %.2f", a,b,divisao);
+    
+    
     return 0;
 
 }

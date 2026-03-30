@@ -10,7 +10,15 @@
 #include <stdlib.h>
 
 int main( void ) {
-
+    int base;
+    int altura;
+    int area;
+    
+    scanf("%d", &base);
+    scanf("%d", &altura);
+    area = base*altura/2;
+    printf("Area = %d", area);
+    return 0;
     return 0;
 
 }
