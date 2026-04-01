@@ -10,7 +10,18 @@
 #include <stdlib.h>
 
 int main( void ) {
+    float peso,altura,imc;
 
+    printf("Entre com seu peso em quilogramas: ");
+    scanf("%f", &peso);
+
+    printf("\nEntre com sua altura em metros: ");
+    scanf("%f", &altura);
+
+    imc = peso/(altura*altura);
+
+    printf("Seu IMC e: %.2f", imc);
+    
     return 0;
 
 }

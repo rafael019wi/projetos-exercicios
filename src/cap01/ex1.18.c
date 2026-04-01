@@ -10,6 +10,17 @@
 #include <stdlib.h>
 
 int main( void ) {
+    float diagonalMenor,diagonalMaior,area;
+
+    printf("Valor diagonal maior: ");
+    scanf("%f", &diagonalMaior);
+
+    printf("\nValor diagonal menor: ");
+    scanf("%f", &diagonalMenor);
+
+    area = diagonalMaior * diagonalMenor/2 ;
+
+    printf("\nArea = %.2f", area);
 
     return 0;
 

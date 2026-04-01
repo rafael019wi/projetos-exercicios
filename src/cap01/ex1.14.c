@@ -10,6 +10,13 @@
 #include <stdlib.h>
 
 int main( void ) {
+    float lado,perimetro,area;
+    printf("Digite o valor do lado: ");
+    scanf("%f",&lado);
+    perimetro = lado*4;
+    area = lado*lado;
+    printf("\nPerimetro = %.2f", perimetro);
+    printf("\nArea = %.2f", area);
     
     return 0;
 

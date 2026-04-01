@@ -10,6 +10,17 @@
 #include <stdlib.h>
 
 int main( void ) {
+    int anoNascimento,anoAtual,idade;
+
+    printf("Ano de nascimento: ");
+    scanf("%d", &anoNascimento);
+
+    printf("\nAno de atual: ");
+    scanf("%d", &anoAtual);
+
+    idade = anoAtual-anoNascimento;
+
+    printf("\nIdade aproximada: %d anos",idade);
 
     return 0;
 

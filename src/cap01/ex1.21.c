@@ -10,6 +10,17 @@
 #include <stdlib.h>
 
 int main( void ) {
+    int n1,sucessor,antecessor;
+
+    printf("Forneca um numero inteiro: ");
+    scanf("%d", &n1);
+
+    sucessor = n1 + 1;
+    antecessor = n1 - 1;
+
+    printf("\nSucessor de %d: %d",n1,sucessor);
+
+    printf("\nAntecessor de %d: %d",n1,antecessor);
 
     return 0;
 
