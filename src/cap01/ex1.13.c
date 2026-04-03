@@ -16,8 +16,13 @@ int main( void ) {
     float subtracao;
     float divisao;
     float multiplicacao;
+
+    printf("Primeiro numero: ");
     scanf("%f",&a);
+
+    printf("Segundo numero: ");
     scanf("%f",&b);
+
     soma = a+b;
     subtracao = a-b;
     multiplicacao = a*b;

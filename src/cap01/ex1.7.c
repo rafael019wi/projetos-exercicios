@@ -14,12 +14,15 @@ int main( void ) {
     int perimetro;
     int area;
     
+    printf("Valor do lado: ");
     scanf("%d", &lado);
+
     perimetro = lado*4;
     area = lado*lado;
+
     printf("Perimetro = %d\n", perimetro);
     printf("Area = %d", area);
-    return 0;
+
     return 0;
 
 }

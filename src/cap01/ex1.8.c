@@ -14,15 +14,19 @@ int main( void ) {
     int altura;
     int perimetro;
     int area;
-    printf("digite o valor do lado: ");
+
+    printf("Valor da largura: ");
     scanf("%d", &lado);
-    printf("digite o valor da altura: ");
+
+    printf("Valor da altura: ");
     scanf("%d", &altura);
+
     perimetro = lado*2 + altura*2;
     area = lado*altura;
+
     printf("Perimetro = %d\n", perimetro);
     printf("Area = %d", area);
-    return 0;
+
     return 0;
 
 }

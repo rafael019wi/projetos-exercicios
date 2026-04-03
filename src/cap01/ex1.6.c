@@ -19,8 +19,10 @@ int main( void ) {
 
     printf("primeiro numero: "); 
     scanf("%d", &numero1);
+
     printf("segundo numero: ");
     scanf("%d", &numero2);
+
     soma = numero1+numero2;
     subtracao = numero1-numero2;
     multiplicacao = numero1*numero2;
@@ -30,6 +32,7 @@ int main( void ) {
     printf("%d - %d = %d\n", numero1,numero2,subtracao);
     printf("%d * %d = %d\n", numero1,numero2,multiplicacao);
     printf("%d / %d = %d\n", numero1,numero2,divisao);
+    
     return 0;
 
 }
