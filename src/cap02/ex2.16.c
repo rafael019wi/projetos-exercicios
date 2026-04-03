@@ -20,7 +20,7 @@ int main( void ) {
     }
 
     mesmo = num;
-    milhares = mesmo /1000;
+    milhares = mesmo / 1000;
     mesmo = mesmo - milhares*1000;
     centenas = mesmo / 100;
     mesmo = mesmo - centenas*100;
@@ -29,13 +29,16 @@ int main( void ) {
     unidades = mesmo;
 
     //printf("%d + %d + %d + %d\n", milhares,centenas,dezenas,unidades);
+
     printf("%d = ",num);
+    
+    //M
     if (milhares > 0){
         for(int i = 0; i != milhares; i++){
             printf("M");
         }
     }
-
+    //C
     if (centenas > 0 && centenas<4){
         for(int i = 0; i != centenas; i++){
             printf("C");
@@ -53,14 +56,14 @@ int main( void ) {
     else if(centenas == 9){
         printf("CM");
     }
-
+    //D
     if (dezenas > 0 && dezenas<4){
         for(int i = 0; i != dezenas; i++){
             printf("X");
         }
     }
     else if (dezenas==4){
-        printf("LX");
+        printf("XL");
     }
     else if(dezenas>4 && dezenas<9){
         printf("L");
@@ -71,7 +74,7 @@ int main( void ) {
     else if(dezenas == 9){
         printf("XC");
     }
-
+    //U
     if (unidades > 0 && unidades<4){
         for(int i = 0; i != unidades; i++){
             printf("I");
@@ -89,11 +92,5 @@ int main( void ) {
     else if(unidades == 9){
         printf("IX");
     }
-
-    
-
-
-    
     return 0;
-
 }
