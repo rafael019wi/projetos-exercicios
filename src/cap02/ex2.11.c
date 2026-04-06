@@ -10,7 +10,37 @@
 #include <stdlib.h>
 
 int main( void ) {
+    int alfa,beta,gama;
+    
+    printf("alfa: ");
+    scanf("%d" , &alfa);
 
-    return 0;
+    printf("\nbeta: ");
+    scanf("%d" , &beta);
+    
+    printf("\ngama: ");
+    scanf("%d" , &gama);
+
+    if(alfa + beta + gama > 180){
+        printf("As medidas fornecidas dos angulos nao representam um triangulo valido!");
+        
+    }
+
+    else{
+        printf("\nTriangulo ");
+        if(alfa == 90 || beta == 90 || gama == 90){
+            printf("RETANGULO");
+        }
+        else if(alfa < 90 && beta < 90 && gama < 90){
+            printf("ACUTANGULO");
+        }
+        else {
+            printf("OBTUSANGULO");
+        }
+    }
+
+
+
+    return 0;   
 
 }
