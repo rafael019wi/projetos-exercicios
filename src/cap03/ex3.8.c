@@ -10,7 +10,18 @@
 #include <stdlib.h>
 
 int main( void ) {
+    int n1;
 
-    return 0;
+    printf("Forneca um numero menor ou igual a zero: ");
+    scanf("%d", &n1);
+
+    if(n1 > 0 ) {
+        printf("Valor incorreto (positivo)");
+    }
+    else{
+        for(int i = 0; i>=n1; i--){
+            printf("%d ",i);
+        }
+    }
 
 }

@@ -20,7 +20,7 @@ int main( void ) {
 
     printf("\nValores antes da troca:");
     printf("\nPrimeiro numero: %d",valor1);
-    printf("\nSegundo numero: %d",valor2);
+        printf("\nSegundo numero: %d",valor2);
 
     temp = valor1;
     valor1 = valor2;
