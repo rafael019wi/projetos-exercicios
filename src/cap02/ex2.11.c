@@ -10,7 +10,9 @@
 #include <stdlib.h>
 
 int main( void ) {
-    int alfa,beta,gama;
+    int alfa;
+    int beta;
+    int gama;
     
     printf("alfa: ");
     scanf("%d" , &alfa);

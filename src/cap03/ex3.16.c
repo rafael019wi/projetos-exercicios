@@ -10,7 +10,15 @@
 #include <stdlib.h>
 
 int main( void ) {
-
+    int n1;
+    int inicio = 1;
+    int anterior = 0;
+    for (int i = 0;i<=20;i++){
+        printf("%d ", inicio);
+        n1 = inicio + anterior;
+        anterior = inicio;
+        inicio = n1;
+    }
     return 0;
 
 }

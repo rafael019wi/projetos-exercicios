@@ -10,7 +10,8 @@
 #include <stdlib.h>
 
 int main( void ) {
-    float num1,num2;
+    float num1;
+    float num2;
 
     printf("Entre com um numero: ");
     scanf("%f", &num1);

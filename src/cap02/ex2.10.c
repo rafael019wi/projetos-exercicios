@@ -10,8 +10,13 @@
 #include <stdlib.h>
 
 int main( void ) {
-    float a,b,c,sub1,sub2,sub3;
-
+    float a;
+    float b;
+    float c;
+    float sub1;
+    float sub2;
+    float sub3;
+    
     printf("a: ");
     scanf("%f", &a);
 

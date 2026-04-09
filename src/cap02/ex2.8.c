@@ -10,7 +10,10 @@
 #include <stdlib.h>
 
 int main( void ) {
-    float n1,n2,n3,temp;
+    float n1;
+    float n2;
+    float n3;
+    float temp;
 
     printf("N1: ");
     scanf("%f", &n1);
