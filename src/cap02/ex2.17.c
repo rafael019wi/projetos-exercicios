@@ -10,7 +10,29 @@
 #include <stdlib.h>
 
 int main( void ) {
+    int n1;
 
-    return 0;
+    printf("Entre com um valor inteiro: ");
+    scanf("%d", &n1);
+
+    switch (n1){
+        case 2:
+            printf("\nO valor fornecido foi %d.", n1);
+            break;
+        case 4:
+            printf("\nO valor fornecido foi %d.", n1);
+            break;
+        case 6:
+            printf("\nO valor fornecido foi %d.", n1);
+            break;
+        case 8:
+            printf("\nO valor fornecido foi %d.", n1);
+            break;
+        default:
+            printf("\nValor invalido.");
+            break;
+    }
+
+    return 0;   
 
 }
