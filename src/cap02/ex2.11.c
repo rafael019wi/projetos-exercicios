@@ -25,7 +25,6 @@ int main( void ) {
 
     if(alfa + beta + gama > 180){
         printf("As medidas fornecidas dos angulos nao representam um triangulo valido!");
-        
     }
 
     else{
