@@ -10,7 +10,26 @@
 #include <stdlib.h>
 
 int main( void ) {
+    int valor = 0;
+    int menor = 0;
+    int maior = 0;
+    int contador = 0;
+    while(valor >=0){
+        printf("\nEntre com um valor: ");
+        scanf("%d", &valor);
+        if (valor>=0){
+            if(valor>maior){
+                maior = valor;
+            }
+            if(valor < menor || contador <=1){
+                menor = valor;
+            }
+            contador++;
+        }
+    }
 
+    printf("\nMenor numero: %d", menor);
+    printf("\nMaior numero: %d", maior);
     return 0;
 
 }
