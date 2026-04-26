@@ -9,8 +9,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main( void ) {
+    int array[5]; 
+    int contador;
+    int posicao[5];
+    int busca;
+    int t = (int) (sizeof(array)/sizeof(array[0]));
 
+    for(int i = 0; i<t; i++){
+        printf("Array[%d]: ",i);
+        scanf("%d", &array[i]);
+    }
+    printf("Buscar por: ");
+    scanf("%d", &busca);
     return 0;
-
 }
+
