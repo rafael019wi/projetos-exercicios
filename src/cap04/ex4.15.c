@@ -40,11 +40,9 @@ int main( void ) {
         int arrayInterseccao[contador];
         // printf("\n\n\nContador = %d", contador);
         contador = 0;
-
         for(int i = 0 ; i<t1; i++){
             for(int j = 0;j<t2;j++){
-                if(array1[i] == array2[j]){
-                    
+                if(array1[i] == array2[j]){       
                     arrayInterseccao[contador] = array1[i];
                     contador++;
                     break;
