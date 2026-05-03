@@ -10,17 +10,24 @@
 #include <stdlib.h>
 
 int main( void ) {
-    int array1[5];
+    int array[5];
     int arrayInversp[5];
-    int t = (int) (sizeof(array1)/sizeof(array1[0]));
-    for(int i = 0; i<t; i++){
+    int t = (int) (sizeof(array)/sizeof(array[0]));
+    int ini = 0;
+    int fim = t-1;
+    for(int i = 0;i<t;i++){
         printf("array[%d]: ",i);
-        scanf("%d", &array1[i]);
+        scanf("%d",&array[i]);
     }
-    for(int i = 0;i<t; i++){
-        int t = array1[i];
-        array[i] = array[i+1]
-
+    while(ini<fim){
+        int temp = array[ini];
+        array[ini] = array[fim];
+        array[fim] = temp;
+        ini++;
+        fim--;
+    }
+    for(int i = 0; i<t;i++){
+        printf("arrayInv[%d] = %d\n",i,array[i]);
     }
     return 0;
 
