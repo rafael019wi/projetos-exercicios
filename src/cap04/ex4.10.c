@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main( void ) {
+int main( void ) {  
     int array[5];
     int contador = 0;
     int maior;
