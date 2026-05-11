@@ -24,17 +24,18 @@ int main( void ) {
     for(int i = 0 ; i < linhas1; i++){
         for (int j = 0 ; j<colunas1; j++){
             printf("array1[%d][%d]: ",i,j);
-            scanf("%d", array1[i][j]);
+            scanf("%d", &array1[i][j]);
         }
     }
 
     for(int i = 0 ; i < linhas2; i++){
+        printf("\n");
         for (int j = 0 ; j<colunas2; j++){
             printf("array2[%d][%d]: ",i,j);
-            scanf("%d", array2[i][j]);
+            scanf("%d", &array2[i][j]);
             arraySoma[i][j] = array1[i][j] + array2[i][j];
         }
-        printf("\n");
+        
     }
 
     
