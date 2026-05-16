@@ -11,7 +11,6 @@
 
 int main( void ) {
     int array[5];
-    int arrayInversp[5];
     int t = (int) (sizeof(array)/sizeof(array[0]));
     int ini = 0;
     int fim = t-1;

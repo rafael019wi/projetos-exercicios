@@ -8,9 +8,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
+float areaCirculo(int r);
+float circunferenciaCirculo(int r);
 int main( void ) {
 
     return 0;
 
+}
+float areaCirculo(int r){
+    return 
 }
