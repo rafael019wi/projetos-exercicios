@@ -18,5 +18,5 @@ int main( void ) {
 
 }
 float areaCirculo(int r){
-    return 
+    return r*r*
 }

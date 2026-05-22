@@ -14,3 +14,9 @@ int main( void ) {
     return 0;
 
 }
+void decompoeTempo( int totalSeg, int *horas, int *minutos, int *seg ){
+    *horas = totalSeg/3600;
+    totalSeg = totalSeg%3600;
+    *minutos = totalSeg/60;
+    *seg = totalSeg%60;
+}
