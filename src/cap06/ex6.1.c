@@ -32,8 +32,8 @@ int main( void ) {
             printf("\nS = {}");
         }
         else{
-            x1 = (-b+sqrt(delta))/(2*a);
-            x2 = (-b-sqrt(delta))/(2*a);
+            x1 = (-b+sqrt(delta))/(pow(2,a));
+            x2 = (-b-sqrt(delta))/(pow(2,a));
             if(x1>x2){
                 float temp = x1;
                 x1 = x2;

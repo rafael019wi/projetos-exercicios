@@ -8,9 +8,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main( void ) {
+    float numero;
 
+    printf("Numero: ");
+    scanf("%f",&numero);
+    printf("%f",numero);
+    printf("\nValor absoluto: %.2f",fabs(numero));
     return 0;
 
 }

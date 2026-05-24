@@ -8,9 +8,36 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
+
+
+bool ehPrimo(int n);
 
 int main( void ) {
-
+    for(int i = 1 ; i<=20 ; i++){
+        if(ehPrimo(i) && i>1){
+            printf("\n%d: eh primo",i);
+        }
+        else{
+            printf("\n%d: nao eh primo",i);
+        }
+    }
     return 0;
 
 }
+
+bool ehPrimo(int n){
+    int div = 0 ;
+    for(int i = 1 ; i <= n/2 ; i++){
+        if(n%i == 0){
+            div ++;
+        }
+    }
+    if(div == 1){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+

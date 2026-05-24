@@ -10,13 +10,22 @@
 #include <stdlib.h>
 #include <math.h>
 
-float areaCirculo(int r);
-float circunferenciaCirculo(int r);
-int main( void ) {
+#define PI acos(-1)
 
+float areaCirculo(float r);
+float circunferenciaCirculo(float r);
+int main( void ) {
+    float raio;
+    scanf("%f", &raio);
+
+    printf("\nArea = %.2f",areaCirculo(raio));
+    printf("\nCircunferencia = %.2f",circunferenciaCirculo(raio));
     return 0;
 
 }
-float areaCirculo(int r){
-    return r*r*
+float areaCirculo(float r){
+    return pow(r,2)*PI;
+}
+float circunferenciaCirculo(float r){
+    return 2*PI*r;
 }
