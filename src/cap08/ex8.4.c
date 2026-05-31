@@ -9,6 +9,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+bool ehBissexto(int ano);
+void decompoeData(int diaDoAno, int ano , int *mes, int *dia);
+
+int main( void ) {
+
+    return 0;
+
+}
+
 bool ehBissexto(int ano){
     return (ano%4 == 0 && ano%100 != 0)|| (ano%400 == 0);
 }
@@ -24,10 +33,4 @@ void decompoeData(int diaDoAno, int ano , int *mes, int *dia){
     }
     *mes = mesAtual;
     *dia = diaDoAno;
-}
-
-int main( void ) {
-
-    return 0;
-
 }
