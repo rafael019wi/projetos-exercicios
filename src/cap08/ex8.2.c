@@ -16,8 +16,16 @@ int main( void ) {
     scanf("%d", &n1);
     printf("n2: ");
     scanf("%d", &n2);
+    printf("\nAntes:");
+    printf("\n    n1: %d",n1);
+    printf("\n    n2: %d",n2);
     trocar(&n1,&n2);
-    printf("%d %d",n1,n2);
+
+    printf("\nDepois:");
+    printf("\n    n1: %d",n1);
+    printf("\n    n2: %d",n2);
+
+    // printf("%d %d",n1,n2);
     return 0;
     
 }

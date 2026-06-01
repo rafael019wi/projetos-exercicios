@@ -20,6 +20,8 @@ int main( void ) {
         scanf("%f",&numero[i]);
     }
     somatorioMedia(numero,10,&s,&m);
+    printf("\nSomatorio: %.2f",s);
+    printf("\nMedia: %.2f",m);
     return 0;
 
 }
